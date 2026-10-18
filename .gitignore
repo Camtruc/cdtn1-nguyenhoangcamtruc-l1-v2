@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+node_modules/
+dist/
+bin/
+obj/
+.env
+*.log
+data/raw/
+models/
+*.pkl
+*.joblib
+.idea/
+.vscode/
