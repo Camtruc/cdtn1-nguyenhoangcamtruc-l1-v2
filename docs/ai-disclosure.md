@@ -1,0 +1,1 @@
+﻿Sinh viên: Nguyen Hoang Cam Truc - MSSV: 2374802010526. Su dung Google Gemini ho tro dinh dang User Story va cau lap luan kien truc theo chuan INVEST va ISO 29148. Cam ket tu thuc hien toan bo thiet ke va mo hinh du lieu.

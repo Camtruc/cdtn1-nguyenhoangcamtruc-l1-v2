@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="RU9iB8_KnvZHkXyBnS_g">
+    <mxGraphModel dx="1493" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nskinparam defaultFontName \&quot;DejaVu Sans\&quot;\nskinparam defaultFontSize 11\nskinparam roundcorner 5\n\nrectangle \&quot;MEKONG MOBILE - DASHBOARD TỔNG QUAN PHÂN KHÚC KHÁCH HÀNG (LUỒNG L1)\\n[Bộ lọc Kỳ: Năm 2026 ▾]  [Bộ lọc Chi nhánh: Tất cả cửa hàng ▾]  [Nút: Làm mới dữ liệu]\&quot; as Header #LightSteelBlue\n\npackage \&quot;CÁC CHỈ SỐ TỔNG QUAN (KPI CARDS)\&quot; {\n  rectangle \&quot;TỔNG KHÁCH HÀNG\\n=== 8.420 ===\\nKhách có dữ liệu\&quot; as K1 #White\n  rectangle \&quot;TỶ LỆ KHÁCH VIP\\n=== 12,5% ===\\nChi tiêu &gt;= 20tr\&quot; as K2 #LightGreen\n  rectangle \&quot;DOANH THU TỪ VIP\\n=== 4,8 TỶ VND ===\\nĐóng góp 58% DT\&quot; as K3 #Gold\n  rectangle \&quot;KHÁCH NGỦ ĐÔNG\\n=== 1.250 ===\\n&gt; 180 ngày chưa mua\&quot; as K4 #LightSalmon\n}\n\npackage \&quot;BIỂU ĐỒ TRỰC QUAN HÓA\&quot; {\n  rectangle \&quot;BIỂU ĐỒ 1: TỶ LỆ CƠ CẤU PHÂN KHÚC (DONUT CHART)\\n\\n  * Khách VIP (M &gt;= 20tr): 12,5%\\n  * Khách Thường xuyên: 35,0%\\n  * Khách Mới (&lt;= 30 ngày): 37,5%\\n  * Khách Ngủ đông (&gt; 180 ngày): 15,0%\&quot; as C1 #White\n  rectangle \&quot;BIỂU ĐỒ 2: ĐÓNG GÓP DOANH THU THEO PHÂN KHÚC (BAR CHART)\\n\\n  VIP            |====================| (4,8 Tỷ)\\n  Thường xuyên   |============| (2,3 Tỷ)\\n  Mới            |======| (850 Triệu)\\n  Ngủ đông       |==| (320 Triệu)\&quot; as C2 #White\n}\n\npackage \&quot;BẢNG TỔNG HỢP CHI TIẾT CÁC PHÂN KHÚC\&quot; {\n  rectangle \&quot;Nhóm phân khúc  | Số lượng KH | Tổng chi tiêu (VND) | Doanh thu TB/khách | Tần suất mua TB\\n----------------------------------------------------------------------------------------------------\\nVIP (M &gt;= 20tr) | 1.050       | 4.800.000.000       | 4.570.000          | 6,2 đơn\\nThường xuyên    | 2.950       | 2.300.000.000       | 1.820.000          | 3,1 đơn\\nMới (&lt;= 30 ngày)| 3.160       |   850.000.000       |   850.000          | 1,0 đơn\\nNgủ đông (&gt;180d)| 1.260       |   320.000.000       |   920.000          | 1,4 đơn\&quot; as T1 #White\n}\n\nHeader -[hidden]down-&gt; K1\nK1 -[hidden]right-&gt; K2\nK2 -[hidden]right-&gt; K3\nK3 -[hidden]right-&gt; K4\nK1 -[hidden]down-&gt; C1\nC1 -[hidden]right-&gt; C2\nC1 -[hidden]down-&gt; T1\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="LuaMhtkD2LBJ10gpule9-130">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="MEKONG MOBILE - DASHBOARD TỔNG QUAN PHÂN KHÚC KHÁCH HÀNG (LUỒNG L1)&#xa;[Bộ lọc Kỳ: Năm 2026 ▾]  [Bộ lọc Chi nhánh: Tất cả cửa hàng ▾]  [Nút: Làm mới dữ liệu]" plantUmlId="n_0" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#B0C4DE;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" plantUmlBaseValue="MEKONG MOBILE - DASHBOARD TỔNG QUAN PHÂN KHÚC KHÁCH HÀNG (LUỒNG L1)&#xa;[Bộ lọc Kỳ: Năm 2026 ▾]  [Bộ lọc Chi nhánh: Tất cả cửa hàng ▾]  [Nút: Làm mới dữ liệu]" id="LuaMhtkD2LBJ10gpule9-131">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-130" style="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#B0C4DE;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="49" width="586" x="30" y="78.88" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CÁC CHỈ SỐ TỔNG QUAN (KPI CARDS)" plantUmlId="c_1" plantUmlBaseStyle="shape=folder;tabWidth=229;tabHeight=23;tabPosition=left;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontStyle=1;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=2;spacingTop=-4;rounded=1;arcSize=5;absoluteArcSize=1;fontFamily=DejaVu Sans;" plantUmlBaseValue="CÁC CHỈ SỐ TỔNG QUAN (KPI CARDS)" id="LuaMhtkD2LBJ10gpule9-132">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-130" style="shape=folder;tabWidth=229;tabHeight=23;tabPosition=left;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontStyle=1;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=2;spacingTop=-4;rounded=1;arcSize=5;absoluteArcSize=1;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="108" width="800.43" x="989.86" y="45" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="TỔNG KHÁCH HÀNG&#xa;=== 8.420 ===&#xa;Khách có dữ liệu" plantUmlId="n_2" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" plantUmlBaseValue="TỔNG KHÁCH HÀNG&#xa;=== 8.420 ===&#xa;Khách có dữ liệu" id="LuaMhtkD2LBJ10gpule9-133">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-132" style="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="62" width="150" x="15" y="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="TỶ LỆ KHÁCH VIP&#xa;=== 12,5% ===&#xa;Chi tiêu &gt;= 20tr" plantUmlId="n_3" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#90EE90;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" plantUmlBaseValue="TỶ LỆ KHÁCH VIP&#xa;=== 12,5% ===&#xa;Chi tiêu &gt;= 20tr" id="LuaMhtkD2LBJ10gpule9-134">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-132" style="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#90EE90;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="62" width="143" x="232.43" y="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="DOANH THU TỪ VIP&#xa;=== 4,8 TỶ VND ===&#xa;Đóng góp 58% DT" plantUmlId="n_4" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFD700;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" plantUmlBaseValue="DOANH THU TỪ VIP&#xa;=== 4,8 TỶ VND ===&#xa;Đóng góp 58% DT" id="LuaMhtkD2LBJ10gpule9-135">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-132" style="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFD700;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="62" width="162" x="410.43" y="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="KHÁCH NGỦ ĐÔNG&#xa;=== 1.250 ===&#xa;&gt; 180 ngày chưa mua" plantUmlId="n_5" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFA07A;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" plantUmlBaseValue="KHÁCH NGỦ ĐÔNG&#xa;=== 1.250 ===&#xa;&gt; 180 ngày chưa mua" id="LuaMhtkD2LBJ10gpule9-136">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-132" style="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFA07A;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="62" width="178" x="607.43" y="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="BIỂU ĐỒ TRỰC QUAN HÓA" plantUmlId="c_6" plantUmlBaseStyle="shape=folder;tabWidth=158;tabHeight=23;tabPosition=left;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontStyle=1;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=2;spacingTop=-4;rounded=1;arcSize=5;absoluteArcSize=1;fontFamily=DejaVu Sans;" plantUmlBaseValue="BIỂU ĐỒ TRỰC QUAN HÓA" id="LuaMhtkD2LBJ10gpule9-137">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-130" style="shape=folder;tabWidth=158;tabHeight=23;tabPosition=left;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontStyle=1;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=2;spacingTop=-4;rounded=1;arcSize=5;absoluteArcSize=1;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="156" width="952.6" x="883" y="177.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="BIỂU ĐỒ 1: TỶ LỆ CƠ CẤU PHÂN KHÚC (DONUT CHART)&#xa;&#xa;  * Khách VIP (M &gt;= 20tr): 12,5%&#xa;  * Khách Thường xuyên: 35,0%&#xa;  * Khách Mới (&lt;= 30 ngày): 37,5%&#xa;  * Khách Ngủ đông (&gt; 180 ngày): 15,0%" plantUmlId="n_7" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" plantUmlBaseValue="BIỂU ĐỒ 1: TỶ LỆ CƠ CẤU PHÂN KHÚC (DONUT CHART)&#xa;&#xa;  * Khách VIP (M &gt;= 20tr): 12,5%&#xa;  * Khách Thường xuyên: 35,0%&#xa;  * Khách Mới (&lt;= 30 ngày): 37,5%&#xa;  * Khách Ngủ đông (&gt; 180 ngày): 15,0%" id="LuaMhtkD2LBJ10gpule9-138">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-137" style="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="110" width="356" x="15" y="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="BIỂU ĐỒ 2: ĐÓNG GÓP DOANH THU THEO PHÂN KHÚC (BAR CHART)&#xa;&#xa;  VIP            |====================| (4,8 Tỷ)&#xa;  Thường xuyên   |============| (2,3 Tỷ)&#xa;  Mới            |======| (850 Triệu)&#xa;  Ngủ đông       |==| (320 Triệu)" plantUmlId="n_8" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" plantUmlBaseValue="BIỂU ĐỒ 2: ĐÓNG GÓP DOANH THU THEO PHÂN KHÚC (BAR CHART)&#xa;&#xa;  VIP            |====================| (4,8 Tỷ)&#xa;  Thường xuyên   |============| (2,3 Tỷ)&#xa;  Mới            |======| (850 Triệu)&#xa;  Ngủ đông       |==| (320 Triệu)" id="LuaMhtkD2LBJ10gpule9-139">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-137" style="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="110" width="423" x="514.6" y="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="BẢNG TỔNG HỢP CHI TIẾT CÁC PHÂN KHÚC" plantUmlId="c_9" plantUmlBaseStyle="shape=folder;tabWidth=260;tabHeight=23;tabPosition=left;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontStyle=1;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=2;spacingTop=-4;rounded=1;arcSize=5;absoluteArcSize=1;fontFamily=DejaVu Sans;" plantUmlBaseValue="BẢNG TỔNG HỢP CHI TIẾT CÁC PHÂN KHÚC" id="LuaMhtkD2LBJ10gpule9-140">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-130" style="shape=folder;tabWidth=260;tabHeight=23;tabPosition=left;html=1;whiteSpace=wrap;fillColor=none;strokeColor=#000000;strokeWidth=1.5;fontSize=11;fontStyle=1;fontColor=#000000;align=left;verticalAlign=top;spacingLeft=2;spacingTop=-4;rounded=1;arcSize=5;absoluteArcSize=1;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="156" width="850" x="651" y="358" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Nhóm phân khúc  | Số lượng KH | Tổng chi tiêu (VND) | Doanh thu TB/khách | Tần suất mua TB&#xa;----------------------------------------------------------------------------------------------------&#xa;VIP (M &gt;= 20tr) | 1.050       | 4.800.000.000       | 4.570.000          | 6,2 đơn&#xa;Thường xuyên    | 2.950       | 2.300.000.000       | 1.820.000          | 3,1 đơn&#xa;Mới (&lt;= 30 ngày)| 3.160       |   850.000.000       |   850.000          | 1,0 đơn&#xa;Ngủ đông (&gt;180d)| 1.260       |   320.000.000       |   920.000          | 1,4 đơn" plantUmlId="n_10" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" plantUmlBaseValue="Nhóm phân khúc  | Số lượng KH | Tổng chi tiêu (VND) | Doanh thu TB/khách | Tần suất mua TB&#xa;----------------------------------------------------------------------------------------------------&#xa;VIP (M &gt;= 20tr) | 1.050       | 4.800.000.000       | 4.570.000          | 6,2 đơn&#xa;Thường xuyên    | 2.950       | 2.300.000.000       | 1.820.000          | 3,1 đơn&#xa;Mới (&lt;= 30 ngày)| 3.160       |   850.000.000       |   850.000          | 1,0 đơn&#xa;Ngủ đông (&gt;180d)| 1.260       |   320.000.000       |   920.000          | 1,4 đơn" id="LuaMhtkD2LBJ10gpule9-141">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-140" style="rounded=1;absoluteArcSize=1;arcSize=5;strokeWidth=1;fillColor=#FFFFFF;strokeColor=#181818;whiteSpace=wrap;fontSize=11;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="110" width="820" x="15" y="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="-[hidden]down-&amp;gt; K1" plantUmlId="header_0" plantUmlBaseStyle="text;html=1;fillColor=none;strokeColor=none;fontSize=10;fontColor=#888888;align=right;verticalAlign=middle;whiteSpace=wrap;fontFamily=DejaVu Sans;" plantUmlBaseValue="-[hidden]down-&amp;gt; K1" id="LuaMhtkD2LBJ10gpule9-142">
+          <mxCell parent="LuaMhtkD2LBJ10gpule9-130" style="text;html=1;fillColor=none;strokeColor=none;fontSize=10;fontColor=#888888;align=right;verticalAlign=middle;whiteSpace=wrap;fontFamily=DejaVu Sans;" vertex="1">
+            <mxGeometry height="13" width="108" x="1727.6" y="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
