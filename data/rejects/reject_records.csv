@@ -1,0 +1,3 @@
+order_id,customer_id,order_date,order_status,total_amount,reject_reason
+DH006,KH005,2026-10-12,Cancelled,1500000,Don hang bi huy hoac chua hoan tat
+DH008,KH006,invalid_date,Completed,2000000,Dinh dang ngay khong hop le
